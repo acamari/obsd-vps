@@ -7,6 +7,14 @@ These instructions have been validated on a SC2 instance with 1vCPU + 1G RAM +
 The instance was created selecting Operating system as Arch Linux 2021 Server -
 64 Bit.
 
+# TLDR
+
+I provide a miniroot72.img file modified to run the vanilla OpenBSD installer,
+you can download it [here](https://github.com/acamari/obsd-vps/blob/master/cloudcone/miniroot72.img).
+You should `dd` that image to your `/dev/vda` device, you can use cloudcone's
+*Recovery mode* to do that.
+
+
 # Overview
 
 Cloudcone uses a CDROM boot device for the vm, that CDROM uses grub2 to search
