@@ -17,8 +17,10 @@ You should `dd` that image to your `/dev/vda` device, you can use cloudcone's
 
 # Overview
 
+The modified miniroot72.img file was produced with the following instructions.
+
 Cloudcone uses a CDROM boot device for the vm, that CDROM uses grub2 to search
-for a grub configuration file on a partition that should be the
+for a grub configuration file on a partition on the regular disk that should be the
 number 1 in a MBR partition scheme.
 
 Specifically configuration in cdrom is:
