@@ -1,3 +1,3 @@
 # Instructions to run OpenBSD over some *unsupported* vps providers
 
-For Cloudcone [see](./cloudcone.md)
+For OpenBSD on Cloudcone [see](./openbsd-on-cloudcone.md)
